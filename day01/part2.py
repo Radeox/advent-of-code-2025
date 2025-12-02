@@ -4,7 +4,7 @@ def main():
     dial_pos = 50
 
     # Read input from file
-    with open("input1.txt", "r") as file:
+    with open("input.txt", "r") as file:
         for line in file:
             line = line.strip()
             direction = line[0]
